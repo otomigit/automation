@@ -2,9 +2,5 @@
  - name: Generating parameter file
    hosts: localhost
    connection: local
-   tasks: 
-   - name: populate values from user input 
-     template:
-       src: envinput.j2
-       dest: /tmp/envvalues
-       force: yes
+   roles:
+     - env
