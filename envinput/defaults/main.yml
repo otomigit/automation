@@ -1,2 +1,13 @@
 ---
 # defaults file for envinput
+tfstat_bucket_name: "{{ lookup('env','tfstat_bucket_name') }}"
+gcp_project_id: "{{ lookup('env','gcp_project_id') }}"
+client_name: "{{ lookup('env','client_name') }}"
+envtype: "{{ lookup('env','envtype') }}"
+region: "{{ lookup('env','region') }}"
+admin_url: "{{ lookup('env','admin_url') }}"
+booking_url: "{{ lookup('env','booking_url') }}"
+env_type: "{{ lookup('env','env_type') }}"
+namespace: "{{ lookup('env','namespace') }}"
+authfile: "{{ lookup('env','filename') }}"
+sql_password: "{{ lookup('env','sql_password') }}"
