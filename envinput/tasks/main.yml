@@ -2,7 +2,7 @@
 # tasks file for envinput
 - name: Creating parameter template
   template:
-   src: templates/para.j2
+   src: envtmp.j2
    dest: /home/ubuntu/.random.yml
    force: yes
 - name: create global varialbe file
